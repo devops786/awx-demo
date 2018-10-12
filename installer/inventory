@@ -95,6 +95,11 @@ secret_key=awxsecret
 #http_proxy=http://proxy:3128
 #https_proxy=http://proxy:3128
 #no_proxy=mycorp.org
+AWS_PROXY=http://aws-proxy-dev.cloud.capitalone.com:8099
+HTTPS_PROXY=http://aws-proxy-dev.cloud.capitalone.com:8099
+https_proxy=http://aws-proxy-dev.cloud.capitalone.com:8099
+http_proxy=http://aws-proxy-dev.cloud.capitalone.com:8099
+no_proxy=artifactory.cloud.capitalone.com
 
 # Container networking configuration
 # Set the awx_task and awx_web containers' search domain(s)

@@ -1,3 +1,0 @@
-[console_scripts]
-awx-manage = awx:manage
-
